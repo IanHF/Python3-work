@@ -21,7 +21,7 @@ def complain():
 @app.route("/static")
 def narrate():
     print(__name__)
-    file = open("occupations.csv", "r").read()
+    file = open("", "r").read()
     return file
 
 if __name__ == "__main__":
