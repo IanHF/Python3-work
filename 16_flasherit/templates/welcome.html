@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	{% block head %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <title>{% block title %}{% endblock %} Our Webpage</title>
+        <h1>Inherited Logins by team Chick'n Portenders</h1>
+        <h2>Period 2 Mykolyk softdev assignment 16</h2>
+        {% endblock %}
+    </head>
+    <body>
+      <p>Hello, {{username}}! Welcome to our feature-rich website.
+
+      Logout:
+      <form action='/logout'>
+      <input type = "submit" value = "Logout" />
+      </form></p>
+      <div id="footer">
+                {% block footer %}
+                &copy; Copyright 2019 by <a href="https://github.com/IanHF/SoftDevWorkshop/tree/master">Hannah Fried, and Brian Moses</a>.
+                {% endblock %}
+    </div>
+    </body>
+</html>
+
+
+
