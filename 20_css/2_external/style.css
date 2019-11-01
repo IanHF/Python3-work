@@ -1,0 +1,50 @@
+/*
+Ian Fried, William Cao (Team Fried Cows)
+SoftDev pd2
+K20 -- CSS basics
+2019-11-01
+ */
+
+html {
+    background: rgb(102, 102, 102);
+    font-family: "arial", "times";
+}
+
+h1 {
+    background: rgb(189, 189, 189);
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px auto;
+    background: rgb(117, 117, 117);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav {
+    padding-left: 15px;
+}
+
+nav ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+a {
+    color: rgb(209, 210, 208);
+    text-decoration: none;
+    font-weight: bold; /* The font weight looks fatter on the picture, but I can't really tell*/
+}
+
+footer {
+    background: rgb(87, 87, 87);
+    text-align: right;
+    color: rgb(109, 112, 109);
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+}

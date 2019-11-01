@@ -34,7 +34,7 @@ makeTable("courses")
 makeTable("students")
 # run the function on both csv files
 
-command = ""          # test SQL stmt in sqlite3 shell, save as string
+command = ".tables"          # test SQL stmt in sqlite3 shell, save as string
 c.execute(command)    # run SQL statement
 
 #==========================================================
